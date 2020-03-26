@@ -3,7 +3,7 @@ body{
 }
 .cart{
 	margin: 100px 0;
-	background-color: #F6F5FA;;
+	background-color: #F6F5FA;
 	padding: 60px 0;
 }
 .total-price{
@@ -52,4 +52,18 @@ body{
 	font-size: 19px;
 	background-color: #2FBE70;
 	border: none;
+}
+#ThanksLine{
+text-align: center;
+color: aqua;
+
+
+}
+#thankYouSection{
+height: 200px;
+width: 400px;
+margin: 250px auto;
+background-color: #F6F5FA;
+padding-top: 70px;
+display: none;
 }
