@@ -163,7 +163,7 @@ return total;
  const subtotalNumber = parseFloat(subtotal);
  const total = document.getElementById("totalAmount").innerText;
  const totalNumber  = parseFloat(total);
- const netto = subtotalNumber - (subtotalNumber * 0.1);
+ const netto = subtotalNumber + (subtotalNumber * 0.1);
  document.getElementById("totalAmount").innerText = netto;
  }
  const remove1 = document.getElementById("removeCart1");
@@ -171,7 +171,7 @@ return total;
 
  document.getElementById("cart1Price").innerText = "0";
  document.getElementById("Counter").value = "0";
-  document.getElementById("cartArea1").style.display="none";
+  //document.getElementById("cartArea1").style.display="none";
  
  })
  const remove2 = document.getElementById("removeCart2");
@@ -179,7 +179,7 @@ return total;
 
  document.getElementById("cart2Price").innerText = "0";
  document.getElementById("Counter2").value = "0"
- document.getElementById("cartArea2").style.display="none";
+ //document.getElementById("cartArea2").style.display="none";
 
  
  })
